@@ -1,3 +1,6 @@
+
+@import "modules/_sprite";
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /**
@@ -505,9 +508,9 @@ a {
   margin: 0;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 530px){
 
-  .large-hero__title {
+  .large-hero__title{
     font-size: 4.8rem;
   }
 }
@@ -519,9 +522,9 @@ a {
   margin: 0;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 530px){
 
-  .large-hero__subtitle {
+  .large-hero__subtitle{
     font-size: 2.9rem;
   }
 }
@@ -536,9 +539,9 @@ a {
   margin-right: auto;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 530px){
 
-  .large-hero__description {
+  .large-hero__description{
     font-size: 1.875rem;
   }
 }
@@ -559,9 +562,9 @@ a {
   padding: 1.1rem 1.9rem;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 530px){
 
-  .btn--large {
+  .btn--large{
     font-size: 1.25rem;
   }
 }
@@ -584,9 +587,9 @@ a {
   padding-left: 0;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px){
 
-  .wrapper--no-padding-until-medium {
+  .wrapper--no-padding-until-medium{
     padding-left: 18px;
     padding-right: 18px;
   }
@@ -597,9 +600,9 @@ a {
   padding-left: 0;
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1010px){
 
-  .wrapper--no-padding-until-large {
+  .wrapper--no-padding-until-large{
     padding-left: 18px;
     padding-right: 18px;
   }
@@ -614,9 +617,9 @@ a {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 530px){
 
-  .wrapper--b-margin {
+  .wrapper--b-margin{
     margin-bottom: 3.875rem;
   }
 }
@@ -625,9 +628,9 @@ a {
   padding: 1.2rem 0;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px){
 
-  .page-section {
+  .page-section{
     padding: 4.5rem 0;
   }
 }
@@ -636,9 +639,9 @@ a {
   padding-bottom: 0;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px){
 
-  .page-section--no-b-padding-until-medium {
+  .page-section--no-b-padding-until-medium{
     padding-bottom: 4.5rem;
   }
 }
@@ -647,9 +650,9 @@ a {
   padding-bottom: 0;
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1010px){
 
-  .page-section--no-b-padding-until-large {
+  .page-section--no-b-padding-until-large{
     padding-bottom: 4.5rem;
   }
 }
@@ -663,9 +666,9 @@ a {
   background-color: #e0e6ef;
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1010px){
 
-  .page-section--testimonials {
+  .page-section--testimonials{
     background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
     background-size: cover;
   }
@@ -677,9 +680,9 @@ a {
   color: #2f5572;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 530px){
 
-  .headline {
+  .headline{
     font-size: 2.875rem;
   }
 }
@@ -696,9 +699,9 @@ a {
   font-size: 1.2rem;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 530px){
 
-  .headline--small {
+  .headline--small{
     font-size: 1.875rem;
   }
 }
@@ -725,7 +728,7 @@ a {
   margin-top: 0;
 }
 
-.row::after {
+.row::after{
   content: "";
   clear: both;
   display: table;
@@ -763,71 +766,71 @@ a {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px){
 
-  .row__b-margin-until-medium {
+  .row__b-margin-until-medium{
     margin-bottom: 0;
   }
 
-  .row__medium-4 {
+  .row__medium-4{
     float: left;
     width: 33.33%;
   }
 
-  .row__medium-4--larger {
+  .row__medium-4--larger{
     width: 37%;
   }
 
-  .row__medium-6 {
+  .row__medium-6{
     float: left;
     width: 50%;
   }
 
-  .row__medium-8 {
+  .row__medium-8{
     float: left;
     width: 66.66%;
   }
 
-  .row__medium-8--smaller {
+  .row__medium-8--smaller{
     width: 63%;
   }
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1010px){
 
-  .row__b-margin-until-large {
+  .row__b-margin-until-large{
     margin-bottom: 0;
   }
 
-  .row__large-4 {
+  .row__large-4{
     float: left;
     width: 33.33%;
   }
 
-  .row__large-4--larger {
+  .row__large-4--larger{
     width: 37%;
   }
 
-  .row__large-6 {
+  .row__large-6{
     float: left;
     width: 50%;
   }
 
-  .row__large-8 {
+  .row__large-8{
     float: left;
     width: 66.66%;
   }
 
-  .row__large-8--smaller {
+  .row__large-8--smaller{
     width: 63%;
   }
 }
 
 /* Begin Equal Height Rules */
 
-@media (min-width: 800px) {
+@media (min-width: 800px){
 
-  .row--equal-height-at-medium {
+  .row--equal-height-at-medium{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -841,9 +844,9 @@ a {
   display: flex;
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1010px){
 
-  .row--equal-height-at-large {
+  .row--equal-height-at-large{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -863,9 +866,9 @@ a {
   margin: 0 0 1.8rem 0;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 530px){
 
-  .generic-content-container p {
+  .generic-content-container p{
     font-size: 1.125rem;
   }
 }
@@ -880,9 +883,9 @@ a {
   text-align: center;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 530px){
 
-  .section-title {
+  .section-title{
     font-size: 3.75rem;
   }
 }
@@ -902,9 +905,9 @@ a {
   margin-bottom: .6rem;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 530px){
 
-  .section-title__icon {
+  .section-title__icon{
     position: relative;
     top: 8px;
     margin-right: .5rem;
@@ -919,9 +922,9 @@ a {
   padding-bottom: 2.5rem;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 530px){
 
-  .feature-item {
+  .feature-item{
     padding-left: 94px;
   }
 }
@@ -931,9 +934,9 @@ a {
   margin: 0 auto;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 530px){
 
-  .feature-item__icon {
+  .feature-item__icon{
     position: absolute;
     left: 0;
   }
@@ -947,9 +950,9 @@ a {
   text-align: center;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 530px){
 
-  .feature-item__title {
+  .feature-item__title{
     text-align: left;
     margin-top: 1em;
     font-size: 1.875rem;
@@ -964,9 +967,9 @@ a {
 
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1010px){
 
-  .testimonial {
+  .testimonial{
     margin-bottom: 0;
     padding: 0 18px 1px 18px;
   }
@@ -1002,88 +1005,4 @@ a {
   font-size: 0.9375rem;
   margin: .25rem 0 1rem 0;
 }
-
-.icon--clear-view-escapes {
-    width: 142.4px;
-    height: 59.53px;
-    background-image: url('temp/sprite/css/svg/sprite.css-0f9283b3.svg');
-    background-position: 0 0;
-  }
-
-.icon--comment {
-    width: 64px;
-    height: 64px;
-    background-image: url('temp/sprite/css/svg/sprite.css-0f9283b3.svg');
-    background-position: 99.70443349753694% 0;
-  }
-
-.icon--facebook {
-    width: 21.23px;
-    height: 42.01px;
-    background-image: url('temp/sprite/css/svg/sprite.css-0f9283b3.svg');
-    background-position: 26.040607071652357% 45.795830448496034%;
-  }
-
-.icon--fire {
-    width: 56px;
-    height: 64px;
-    background-image: url('temp/sprite/css/svg/sprite.css-0f9283b3.svg');
-    background-position: 0 99.56481481481481%;
-  }
-
-.icon--globe {
-    width: 64px;
-    height: 64px;
-    background-image: url('temp/sprite/css/svg/sprite.css-0f9283b3.svg');
-    background-position: 27.586206896551722% 99.56481481481481%;
-  }
-
-.icon--instagram {
-    width: 42.01px;
-    height: 42.01px;
-    background-image: url('temp/sprite/css/svg/sprite.css-0f9283b3.svg');
-    background-position: 63.2917018534157% 49.234556504346486%;
-  }
-
-.icon--mail {
-    width: 64px;
-    height: 48px;
-    background-image: url('temp/sprite/css/svg/sprite.css-0f9283b3.svg');
-    background-position: 0 48.00806451612903%;
-  }
-
-.icon--rain {
-    width: 64px;
-    height: 64px;
-    background-image: url('temp/sprite/css/svg/sprite.css-0f9283b3.svg');
-    background-position: 99.70443349753694% 59.25925925925926%;
-  }
-
-.icon--star {
-    width: 64px;
-    height: 64px;
-    background-image: url('temp/sprite/css/svg/sprite.css-0f9283b3.svg');
-    background-position: 59.11330049261084% 99.56481481481481%;
-  }
-
-.icon--twitter {
-    width: 51.78px;
-    height: 42.06px;
-    background-image: url('temp/sprite/css/svg/sprite.css-0f9283b3.svg');
-    background-position: 94.04330452560171% 98.50700323226104%;
-  }
-
-.icon--wifi {
-    width: 60px;
-    height: 64px;
-    background-image: url('temp/sprite/css/svg/sprite.css-0f9283b3.svg');
-    background-position: 68.79227053140097% 0;
-  }
-
-.icon--youtube {
-    width: 34.75px;
-    height: 42px;
-    background-image: url('temp/sprite/css/svg/sprite.css-0f9283b3.svg');
-    background-position: 36.69752421959096% 45.792307692307695%;
-  }
 
