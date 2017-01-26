@@ -1,13 +1,4 @@
 
-{‌{#shapes}}
-  .icon--{‌{base}} {
-    width: {‌{width.outer}}px;
-    height: {‌{height.outer}}px;
-    background-image: url('/temp/sprite/css/{‌{‌{sprite}}}');
-    background-position: {‌{position.relative.xy}};
-  }
-{‌{/shapes}}
-
 
   .icon--clear-view-escapes {
     width: 142.4px;
