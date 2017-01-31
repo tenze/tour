@@ -71,7 +71,7 @@
 	var mobileMenu = new _MobileMenu2.default();
 	new _RevealOnScroll2.default((0, _jquery2.default)(".feature-item"), "85%");
 	new _RevealOnScroll2.default((0, _jquery2.default)(".testimonial"), "60%");
-	var stickeyHeader = new _StickyHeader2.default();
+	var stickyHeader = new _StickyHeader2.default();
 	var modal = new _Modal2.default();
 
 /***/ },
@@ -11205,7 +11205,7 @@
 	  function StickyHeader() {
 	    _classCallCheck(this, StickyHeader);
 
-	    this.lazyImages = (0, _jquery2.default)('.lazyload');
+	    this.lazyImages = (0, _jquery2.default)(".lazyload");
 	    this.siteHeader = (0, _jquery2.default)(".site-header");
 	    this.headerTriggerElement = (0, _jquery2.default)(".large-hero__title");
 	    this.createHeaderWaypoint();
@@ -11219,7 +11219,7 @@
 	  _createClass(StickyHeader, [{
 	    key: 'refreshWaypoints',
 	    value: function refreshWaypoints() {
-	      this.lazyImages.load(function () {
+	      this.lazyImages.on("load", function () {
 	        Waypoint.refreshAll();
 	      });
 	    }
@@ -11630,7 +11630,7 @@
 /* 7 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -11650,40 +11650,41 @@
 	  function Modal() {
 	    _classCallCheck(this, Modal);
 
-	    this.openModalButton = (0, _jquery2.default)('.open-modal');
-	    this.modal = (0, _jquery2.default)('.modal');
-	    this.closeModalButton = (0, _jquery2.default)('.modal__close');
+	    this.openModalButton = (0, _jquery2.default)(".open-modal");
+	    this.modal = (0, _jquery2.default)(".modal");
+	    this.closeModalButton = (0, _jquery2.default)(".modal__close");
 	    this.events();
 	  }
 
 	  _createClass(Modal, [{
-	    key: 'events',
+	    key: "events",
 	    value: function events() {
-	      //clicking open modal button
+	      // clicking the open modal button
 	      this.openModalButton.click(this.openModal.bind(this));
 
-	      //clicking the x close button
+	      // clicking the x close modal button
 	      this.closeModalButton.click(this.closeModal.bind(this));
-	      //pushes any key key
+
+	      // pushes any key
 	      (0, _jquery2.default)(document).keyup(this.keyPressHandler.bind(this));
 	    }
 	  }, {
-	    key: 'keyPressHandler',
+	    key: "keyPressHandler",
 	    value: function keyPressHandler(e) {
 	      if (e.keyCode == 27) {
 	        this.closeModal();
 	      }
 	    }
 	  }, {
-	    key: 'openModal',
+	    key: "openModal",
 	    value: function openModal() {
-	      this.modal.addClass('modal--is-visible');
+	      this.modal.addClass("modal--is-visible");
 	      return false;
 	    }
 	  }, {
-	    key: 'closeModal',
+	    key: "closeModal",
 	    value: function closeModal() {
-	      this.modal.removeClass('modal--is-visible');
+	      this.modal.removeClass("modal--is-visible");
 	    }
 	  }]);
 
